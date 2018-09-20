@@ -26,7 +26,7 @@ public class Runable {
                 try {
                     number = Integer.parseInt(input);
                 } catch(NumberFormatException e){
-//                    e.getStackTrace();
+                    e.getStackTrace();
                 } finally {
                     System.out.println(converter.generate(number));
                 }
