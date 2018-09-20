@@ -45,7 +45,17 @@ public class GeneratorTest {
     }
 
     @Test
-    public void canReturnString(){
+    public void canReturnStringCXC(){
         assertEquals("CXC", converter.generate(190));
+    }
+
+    @Test
+    public void canReturnStringMMMCMXCIX(){
+        assertEquals("MMMCMXCIX", converter.generate(3999));
+    }
+
+    @Test
+    public void canReturnStringCDXLIV(){
+        assertEquals("CDXLIV", converter.generate(444));
     }
 }
