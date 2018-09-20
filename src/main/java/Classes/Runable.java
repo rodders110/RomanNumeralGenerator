@@ -21,8 +21,17 @@ public class Runable {
                 stop = true;
             } else {
                 RomanNumeralConverter converter = new RomanNumeralConverter();
-                int number = Integer.parseInt(input);
-                System.out.println(converter.generate(number));
+                int number = 0;
+
+                try {
+                    number = Integer.parseInt(input);
+                } catch(NumberFormatException e){
+//                    e.getStackTrace();
+                } finally {
+                    System.out.println(converter.generate(number));
+                }
+
+
             }
 
         }
