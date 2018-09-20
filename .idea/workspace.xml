@@ -257,7 +257,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537456374155" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537460381574" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -275,7 +275,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Runable">
+  <component name="RunManager" selected="Application.RomanNumeralConverter">
+    <configuration name="RomanNumeralConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Classes.RomanNumeralConverter" />
+      <module name="RomanNumeralConverter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Runable" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Classes.Runable" />
       <module name="RomanNumeralConverter" />
@@ -333,9 +346,11 @@
       <item itemvalue="JUnit.GeneratorTest.canReturnStringMMMCMXCIX" />
       <item itemvalue="JUnit.GeneratorTest.canReturnStringCDXLIV" />
       <item itemvalue="JUnit.GeneratorTest" />
+      <item itemvalue="Application.RomanNumeralConverter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RomanNumeralConverter" />
         <item itemvalue="JUnit.GeneratorTest" />
         <item itemvalue="JUnit.GeneratorTest.canReturnStringCDXLIV" />
         <item itemvalue="JUnit.GeneratorTest.canReturnStringMMMCMXCIX" />
