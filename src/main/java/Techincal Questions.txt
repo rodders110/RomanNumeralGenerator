@@ -1,0 +1,26 @@
+1. I worked with a team of colleges to create a Fan UFC Application that would allow users to view information on
+   Current UFC fighters and to create their own fantasy dream team where they could view statistics on the fighters and
+   select their chosen fighters. In this project I was charged with creating the database and API for the dream team
+   element of the project. This was to create persistence of data for their chosen team by pulling data from the UFC API
+   directly into our database creating an API of our own to allow our application to utilise the data saved.
+   As this information was to be kept up to date I decided that I was more efficient to  update all the team information
+   every time the uses removed or added fighters to their team. I studied the UFC API carefully to see what data we would
+   find useful for the application and what data we could avoid saving to reduce the time required accessing the data at
+   either end.
+
+
+2. When I would access the UFC API via  JavaScript application I came across a Cross-Origin Resource Sharing Error via
+   a JavaScript fetch request. Doing a web search on this error told us that CORS had to be enabled on the API.
+   As we did not own the UFC API this was not possible. To avoid this error I decided to create a JS Proxy server,
+   This meant that our application would fetch data from our API via a certain route, our API would then make the fetch
+   request to the UFC API and serve this to our application. This appeared to be the most simple and reliable method to
+   overcome this issue as we already had our API and only a small alteration to our code was required.
+
+3. The database and API were tested throughout development using insomnia to simulate the requests being made by the
+   application to the API. The code was also peer reviewed at several stages during development. The API was then
+   tested thoroughly with the application to ensure that the data was being returned as expected. During the creation
+   of the application I learned the importance of thorough planning. If I had to do this again I think I would have
+   dumped that Data from the external API request into our local database for quicker fetches going forward as their
+   was sometimes a delay in the fetching of the data which effected the fluidity of the final application at times.
+
+4. If I am invited for an an interview my chosen language for the paired programming element is Java.
